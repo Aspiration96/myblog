@@ -4,7 +4,7 @@
 ## let
 ### 基础用法
 
-```
+```Javascript
 let a = 2;
 var b = 4;
 function con(){
@@ -21,7 +21,7 @@ console.log(b) //输出4
 从中可以看出<u>** let 只作用于块级作用域中**</u>， var 的就不过多解释了 es6 之后很少人用到 var 了 除非一些老项目。
 
 ### 暂时性死区
-```
+```Javascript
 let tmp = 123;
 if (true) {
   tmp = 'abc'; // ReferenceError
@@ -38,7 +38,7 @@ let 不允许在相同作用域内，重复声明同一个变量。
 
 ## const
 ### 基本用法
-```
+```Javascript
 const PI = 3.1415;
 PI       // 3.1415
 PI = 3;  // TypeError: Assignment to constant variable.
